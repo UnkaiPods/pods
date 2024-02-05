@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pods/static/css/main.0de39b16.css",
-    "main.js": "/pods/static/js/main.7d614f89.js",
+    "main.css": "/pods/static/css/main.68721c92.css",
+    "main.js": "/pods/static/js/main.303d190b.js",
     "static/js/592.54e1e5ef.chunk.js": "/pods/static/js/592.54e1e5ef.chunk.js",
     "index.html": "/pods/index.html",
-    "main.0de39b16.css.map": "/pods/static/css/main.0de39b16.css.map",
-    "main.7d614f89.js.map": "/pods/static/js/main.7d614f89.js.map",
+    "main.68721c92.css.map": "/pods/static/css/main.68721c92.css.map",
+    "main.303d190b.js.map": "/pods/static/js/main.303d190b.js.map",
     "592.54e1e5ef.chunk.js.map": "/pods/static/js/592.54e1e5ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0de39b16.css",
-    "static/js/main.7d614f89.js"
+    "static/css/main.68721c92.css",
+    "static/js/main.303d190b.js"
   ]
 }
