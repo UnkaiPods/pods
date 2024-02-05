@@ -1,0 +1,25 @@
+.products{
+    margin-top: 170px;
+}
+
+.products ul{
+list-style: none;
+padding: 0px;
+gap: 30px 0px;
+display: flex;
+flex-direction: column;
+text-align: start;
+}
+
+.products ul li{
+    text-align: start;
+    margin: 0px 25px;
+    padding: 10px 0px;
+    border-top:1px solid rgb(156, 156, 156);
+    border-bottom:1px solid rgb(156, 156, 156);
+}
+
+.products ul h1{
+    font-size: 1.7rem;
+    margin:0px 0px 0px 20px;
+}
