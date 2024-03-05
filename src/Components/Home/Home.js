@@ -8,7 +8,7 @@ const Home = () => {
 
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
-    setScrollDirection(currentScrollPos > 50 ? 'up' : 'down');
+    setScrollDirection(currentScrollPos > 70 ? 'up' : 'down');
   };
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
 
   const homeStyle = {
     transition: 'transform 0.6s ease',
-    transform: scrollDirection === 'up' ? 'translateY(-172px)' : 'translateY(-112px)',
+    transform: scrollDirection === 'up' ? 'translateY(-192px)' : 'translateY(-102px)',
   };
 
 
@@ -43,7 +43,7 @@ const Home = () => {
             to='ignite'
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-160}
             duration={500}
             ignoreCancelEvents={true}
           >
@@ -68,20 +68,20 @@ const Home = () => {
                 <li
                 
                 >
-                    <Link to='oxbar' spy={true} smooth={true} offset={-100}ration={500}>
+                    <Link to='oxbar' spy={true} smooth={true} offset={-70} duration={500}>
                         Oxbar
                     </Link>
                 </li>
                 <li
                 >
-                    <Link to='lost' spy={true} smooth={true} offset={-100}ration={500}>
+                    <Link to='lost' spy={true} smooth={true} offset={-70} duration={500}>
                         Lost
                     </Link>
                 </li>
                 <li                   
                 
                 >
-                    <Link to='elfbar' spy={true} smooth={true} offset={-100}ration={500}>
+                    <Link to='elfbar' spy={true} smooth={true} offset={-70} duration={500}>
                         Elfbar
                     </Link>
                 </li>
